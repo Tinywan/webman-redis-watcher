@@ -1,0 +1,25 @@
+{
+  "name": "tinywan/redis-watcher",
+  "type": "library",
+  "license": "MIT",
+  "description": "redis watcher for webman plugin ",
+  "authors": [
+    {
+      "name": "Tinywan",
+      "email": "756684177@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "workerman/redis": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tinywan\\Redis\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0|~8.0|~9.0",
+    "workerman/webman": "^1.0"
+  }
+}
